@@ -22,7 +22,7 @@
 
                   <view class="rlvItemBomLeft">
 
-                    <image src='/images/tx.jpg' class="rlvIBLHeadImag" />
+                    <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3145178383,2701734038&fm=26&gp=0.jpg' class="rlvIBLHeadImag" />
 
                     <text class="rlvIBLUserName">{{item.c}}</text>
 
@@ -32,7 +32,7 @@
 
                     <text class="rlvItemBomUfNumber">{{item.d}}</text>
 
-                    <image class="rlvItemBomUfImage" src='../../images/home_circle_z_true.png' />
+                    <image class="rlvItemBomUfImage" src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2665548017,724169019&fm=26&gp=0.jpg' />
 
                   </view>
 
@@ -58,7 +58,7 @@
 
                   <view class="rlvItemBomLeft">
 
-                    <image src='/images/tx.jpg' class="rlvIBLHeadImag" />
+                    <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2222832720,1658029360&fm=26&gp=0.jpg' class="rlvIBLHeadImag" />
 
                     <text class="rlvIBLUserName">{{item.c}}</text>
 
@@ -68,7 +68,7 @@
 
                     <text class="rlvItemBomUfNumber">{{item.d}}</text>
 
-                    <image class="rlvItemBomUfImage" src='../../images/home_circle_z_true.png' />
+                    <image class="rlvItemBomUfImage" src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2665548017,724169019&fm=26&gp=0.jpg' />
 
                   </view>
 
