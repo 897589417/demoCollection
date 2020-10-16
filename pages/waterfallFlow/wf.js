@@ -6,7 +6,107 @@ Page({
    */
   data: {
     circleList:[
-     
+      {
+        id:0,
+        headImag:'https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3375017683,2174997570&fm=26&gp=0.jpg',
+        bomMsg:'是美女呀',
+        uName:'6',
+        likeNumber:'985'
+      },
+      {
+        id:1,
+        headImag:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1697850329,1416483110&fm=26&gp=0.jpg',
+        bomMsg:'是美大师傅女呀',
+        uName:'6',
+        likeNumber:'995'
+      },
+      {
+        id:2,
+        headImag:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=122443580,193955624&fm=26&gp=0.jpg',
+        bomMsg:'是美sad女呀',
+        uName:'6',
+        likeNumber:'234'
+      },  {
+        id:3,
+        headImag:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3083490177,4087830236&fm=26&gp=0.jpg',
+        bomMsg:'是美胜多负少女呀',
+        uName:'6',
+        likeNumber:'435'
+      },  {
+        id:4,
+        headImag:'https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2076212417,3005667226&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'4343'
+      },
+      {
+        id:5,
+        headImag:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1625310290,73752710&fm=26&gp=0.jpg',
+        bomMsg:'是美女呀',
+        uName:'6',
+        likeNumber:'985'
+      },
+      {
+        id:6,
+        headImag:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2374579182,3757175384&fm=26&gp=0.jpg',
+        bomMsg:'是美大师傅女呀',
+        uName:'6',
+        likeNumber:'995'
+      },
+      {
+        id:7,
+        headImag:'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2001767787,752829909&fm=26&gp=0.jpg',
+        bomMsg:'是美sad女呀',
+        uName:'6',
+        likeNumber:'234'
+      },  {
+        id:8,
+        headImag:'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3860060341,126967039&fm=26&gp=0.jpg',
+        bomMsg:'是美胜多负少女呀',
+        uName:'6',
+        likeNumber:'435'
+      },  {
+        id:9,
+        headImag:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=122443580,193955624&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'688'
+      },
+      {
+        id:10,
+        headImag:'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2807460086,2881854178&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'688'
+      },
+      {
+        id:11,
+        headImag:'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2332975657,3496749507&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'688'
+      }
+      , {
+        id:12,
+        headImag:'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3076091725,2590138737&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'688'
+      },
+      {
+        id:13,
+        headImag:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2410116264,1562918764&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'688'
+      },
+      {
+        id:14,
+        headImag:'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3164884185,619407698&fm=26&gp=0.jpg',
+        bomMsg:'是美发女呀',
+        uName:'6',
+        likeNumber:'688'
+      },
     ],
     isHaveMore:true,
     moreBeauty:[
