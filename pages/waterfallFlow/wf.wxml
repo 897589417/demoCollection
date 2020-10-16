@@ -91,9 +91,9 @@
 
       <view class="p-null">
 
-        <image src="/images/zbdl.png" style="width: 128rpx; height: 128rpx;margin-bottom: 20rpx;" />
+        <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3932445989,2907028633&fm=26&gp=0.jpg" style="margin-bottom: 20rpx;" />
 
-        <view>暂时没有热门文章</view>
+        <view style="color: #fff">暂时没有热门文章</view>
 
       </view>
 
