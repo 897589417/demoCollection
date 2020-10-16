@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="objView">
+    <view class="btnView" catchtap= "judgeNetworkStatusClick">判断网络状态，断网重连</view>
+    <view class="btnView" catchtap= "waterfallFlowClick">瀑布流</view>
+</view>

@@ -1,0 +1,106 @@
+<!-- 瀑布流 -->
+<scroll-view class="scView" scroll-y="true" bindscrolltolower="scrollTolower">
+  <view class="scSonView">
+
+    <block wx:if="{{circleList.length != 0}}">
+
+      <view class="reclyViewBg">
+
+        <view class="reclyViewSbg">
+
+          <view class="reclyViewLeft">
+
+            <block wx:for="{{circleList}}" wx:key="idx">
+
+              <view class="rlvItem" wx:if="{{index%2==0}}" id="{{item.id}}" bindtap="hotCircleCilck">
+
+                <image src="{{item.a}}" class="rlvItemImage" mode="widthFix" lazy-load="true" />
+
+                <view class="rlvItemMsg">{{item.b}}</view>
+
+                <view class="rlvItemBomUserMsg">
+
+                  <view class="rlvItemBomLeft">
+
+                    <image src='/images/tx.jpg' class="rlvIBLHeadImag" />
+
+                    <text class="rlvIBLUserName">{{item.c}}</text>
+
+                  </view>
+
+                  <view class="rlvItemBomUserFabulous">
+
+                    <text class="rlvItemBomUfNumber">{{item.d}}</text>
+
+                    <image class="rlvItemBomUfImage" src='../../images/home_circle_z_true.png' />
+
+                  </view>
+
+                </view>
+
+              </view>
+
+            </block>
+
+          </view>
+
+          <view class="reclyViewRight">
+
+            <block wx:for="{{circleList}}" wx:key="idx">
+
+              <view class="rlvItem" wx:if="{{index%2==1}}" id="{{item.id}}" bindtap="hotCircleCilck">
+
+                <image src="{{item.a}}" class="rlvItemImage" mode="widthFix" lazy-load="true" />
+
+                <view class="rlvItemMsg">{{item.b}}</view>
+
+                <view class="rlvItemBomUserMsg">
+
+                  <view class="rlvItemBomLeft">
+
+                    <image src='/images/tx.jpg' class="rlvIBLHeadImag" />
+
+                    <text class="rlvIBLUserName">{{item.c}}</text>
+
+                  </view>
+
+                  <view class="rlvItemBomUserFabulous">
+
+                    <text class="rlvItemBomUfNumber">{{item.d}}</text>
+
+                    <image class="rlvItemBomUfImage" src='../../images/home_circle_z_true.png' />
+
+                  </view>
+
+                </view>
+
+              </view>
+
+            </block>
+
+          </view>
+
+        </view>
+
+
+      </view>
+
+    </block>
+
+    <block wx:else>
+
+      <view class="p-null">
+
+        <image src="/images/zbdl.png" style="width: 128rpx; height: 128rpx;margin-bottom: 20rpx;" />
+
+        <view>暂时没有热门文章</view>
+
+      </view>
+
+    </block>
+
+    <!-- /* 瀑布流 */ -->
+
+  </view>
+
+</scroll-view>

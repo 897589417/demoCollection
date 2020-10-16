@@ -1,0 +1,4 @@
+<view class="objectView">
+  <view class="tvNetWorkType">{{netWorkType}}</view>
+  <view class="tvNetWorkType2" catchtap="click">{{netWorkType22}}</view>
+</view>
