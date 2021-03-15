@@ -1,0 +1,107 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.objView{
+  width: 100%;
+  height: 100%;
+}
+.centerListView{
+  background-color: aqua;
+  margin-top: 25rpx;
+}
+.tum_NoVipImag {
+  width: 84rpx;
+  height: 84rpx;
+  border-radius: 50%;
+  margin-top: 19rpx;
+}
+
+
+
+/* 
+  1.默认设置高度 隐藏其它
+  2.设置两行末尾显示...
+*/
+.centerTextMsg {
+  width: 100%;
+  height: auto;
+}
+
+.business-text {
+  width: 685rpx;
+  font-size: 30rpx;
+  color: #000;
+  /* overflow: hidden; */
+  margin-top: 27rpx;
+
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.business-textaaaaaa{
+  width: 685rpx;
+  font-size: 30rpx;
+  color: #000;
+
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  position: fixed;
+  top: 200%;
+  z-index: -10;
+}
+.business-text.none {
+  /* height: 80rpx; */
+  /* -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; */
+  /* 从上向下垂直排列子元素 */
+}
+
+/* 
+  显示方式以下三种block都可以实现 
+ */
+
+.business-text.block {
+  display: block;
+  /* -webkit-line-clamp: 0; */
+  /* overflow: visible; */
+}
+
+
+.businessBtn {
+  width: 84rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  color: #ff8a00;
+  position: relative;
+}
+
+
+.tvTest {
+  color: #FFFFFF;
+  width: 84rpx;
+  height: 50rpx;
+  margin: 28rpx auto 16rpx;
+  position: relative;
+
+  /*
+  //可以让view只展示三行，后面点点点
+  
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}

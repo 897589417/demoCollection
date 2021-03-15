@@ -21,5 +21,20 @@ Page({
     wx.navigateTo({
       url: '/pages/waterfallFlow/wf',
     })
+  },
+  chooseImagAndDraw: function(){
+    wx.navigateTo({
+      url: '/pages/chooseImagAndCanvas/ciac',
+    })
+  },
+  viewOpen: function(){
+    wx.navigateTo({
+      url: '/pages/viewOpenPage/vop',
+    })
+  },
+  viewTextCopy: function(){
+    wx.navigateTo({
+      url: '/pages/textCopy/tc',
+    })
   }
 })

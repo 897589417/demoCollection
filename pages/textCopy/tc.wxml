@@ -1,0 +1,4 @@
+<view class="views"  bindtap='viewCopyTextClick'>{{viewCopyMsg}}</view>
+<view class="views" ><text selectable>{{viewTextCopyMsg}}</text></view>
+<view class="views" ><text user-select>{{viewTextCopyMsg2}}</text></view>
+<input class="weui-input" placeholder="粘贴"/>

@@ -1,0 +1,21 @@
+<view class="business-textaaaaaa" id="abckdkfjs">见覅剪短发俩设计费市里估计撒个见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了见覅剪短发俩设计费市里估计撒个娇了</view>
+<view class="objView">
+  <view class="centerListView" wx:for="{{circleList}}">
+    <image class="tum_NoVipImag"binderror="headImageLoadError" bindload="headImagLoadSuccess" id="{{index}}"
+                src="{{item.head_photo}}"></image>
+    <view class="centerTextMsg">
+      <view id="uFats{{index}}" class="business-text {{ item.isExpanding ? 'block' : 'none' }}"
+        wx:if="{{item.info.length > 0}}">
+        <view id="uMsgs{{index}}" class="btbn_msg">
+          {{item.info}}
+        </view>
+      </view>
+      <view class="businessBtn" id="uZhanKaiClick{{index}}" catchtap="handleExpandingChange"
+        wx:if="{{item.isGreaterThan1 && item.info.length > 0}}">{{item.isExpanding ? "收起" : "展开"}}
+      </view>
+    </view>
+  </view>
+
+ 
+
+</view>

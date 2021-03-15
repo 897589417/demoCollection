@@ -2,4 +2,7 @@
 <view class="objView">
     <view class="btnView" catchtap= "judgeNetworkStatusClick">判断网络状态，断网重连</view>
     <view class="btnView" catchtap= "waterfallFlowClick">瀑布流</view>
+    <view class="btnView" catchtap= "chooseImagAndDraw">选择图片并画出来</view>
+    <view class="btnView" catchtap= "viewOpen">微信文本的展开和收起</view>
+    <view class="btnView" catchtap= "viewTextCopy">文字的复制</view>
 </view>
